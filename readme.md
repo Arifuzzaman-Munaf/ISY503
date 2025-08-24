@@ -6,7 +6,7 @@ It includes preprocessing, dataset handling, model training, evaluation, and a *
 ---
 
 ## Project Structure
-
+```
 ISY503/
 │
 ├── app/                         # Streamlit web application
@@ -38,7 +38,7 @@ ISY503/
 ├── readme.md                    # Project documentation
 └── .gitignore                   # Git ignore rules
 
-
+```
 
 ---
 
