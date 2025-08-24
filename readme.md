@@ -12,26 +12,31 @@ ISY503/
 ├── app/                         # Streamlit web application
 │   ├── app.py                   # Main Streamlit UI
 │   ├── infer.py                 # Inference wrapper for trained model
-│   └── requirements.txt         # Minimal requirements for running app
+│   ├── requirements.txt         # Minimal dependencies for running the app only
 │
 ├── saved_models/                # Trained model checkpoints (.pth files)
-│   └── DistilBertForClassification_*.pth
+│   └── .gitkeep                 # (keep folder tracked but ignore large .pth files via .gitignore)
 │
 ├── src/                         # Core training and preprocessing code
+│   ├── __init__.py              # Make src a package
 │   ├── dataset.py               # Custom dataset & dataloader
 │   ├── explore.py               # Dataset exploration utilities
 │   ├── models.py                # DistilBERT classifier implementation
 │   ├── preprocess.py            # Data cleaning and preprocessing
-│   ├── standarization.py        # Text normalization (slang, acronyms, contractions)
+│   ├── standardization.py       # Text normalization (slang, acronyms, contractions)
 │   └── train.py                 # Training loop and evaluation functions
 │
-├── wandb/                       # W&B experiment tracking logs
+├── wandb/                       # Experiment tracking logs (ignored in git)
+│   └── .gitignore               # keep folder but ignore contents
 │
-├── main.ipynb                   # Jupyter notebook for training & experiments
+├── notebooks/                   # Jupyter notebooks
+│   └── main.ipynb               # Training & experiments
+│
 ├── config.py                    # Configuration parameters
 ├── utils.py                     # Utility functions
-├── requirements.txt             # Full project dependencies (training + app)
-└── readme.md                    # Project documentation (this file)
+├── requirements.txt             # Full dependencies (training + app)
+├── readme.md                    # Project documentation
+└── .gitignore                   # Git ignore rules
 
 
 
