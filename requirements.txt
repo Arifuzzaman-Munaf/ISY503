@@ -1,0 +1,28 @@
+# Core
+torch
+torchvision
+torchmetrics==0.11.3
+transformers==4.51.1
+streamlit
+
+# Experiment tracking
+wandb==0.19.9
+
+# Data & utilities
+pandas
+numpy
+tqdm
+
+# Imaging & plotting
+matplotlib
+seaborn
+
+
+# If you still use any HF models/utilities elsewhere in the notebook
+transformers==4.51.1
+
+
+NLP
+contractions
+flashtext
+nltk
