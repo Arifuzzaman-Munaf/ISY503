@@ -114,7 +114,13 @@ streamlit run app/app.py
 2. 2. Set maximum setence size
 3. Click analyse to see actual(-) and predicted label with probability
 
+## Ethical Considerations
+1. Dataset bias (e.g., dialect/language misclassification)
+2. Representational harm (stereotypes, misrepresentation)
+3. Domain transfer limitations (generalization challenges)
+4. Privacy & transparency concerns
 
+Note: References are given in Slides.
 
 ## Notes
 •	If you retrain the model, place the new .pth file inside saved_models/ and restart the app.
