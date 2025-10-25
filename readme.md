@@ -70,33 +70,33 @@ streamlit run app/app.py
 
 
 ## What Has Been Done
-•	Preprocessing
+### Preprocessing<br>
 	•	Removed HTML tags, punctuation, stopwords
 	•	Expanded slang and acronyms
 	•	Normalized contractions
 
 
-•	Dataset Handling
+### Dataset Handling
 	•	Outlier removal based on word length distributions
 	
     
-•	Tokenization
+### Tokenization
 	•	HuggingFace DistilBERT tokenizer with max sequence padding/truncation
 	
     
-•	Model
+### Model
 	•	Custom DistilBERT classifier with masked mean pooling and 2-layer MLP head
 	
     
-•	Training
+### Training
 	•	Fine-tuned with AdamW optimizer, cosine scheduler, label smoothing, and early stopping
 	
     
-•	Evaluation
+### Evaluation
 	•	Accuracy, F1-score, confusion matrix, and class distribution tracking
 	
     
-•	Deployment
+### Deployment
 	•	Interactive Streamlit web app for real-time inference
 
 
@@ -123,7 +123,7 @@ streamlit run app/app.py
 Note: References are given in Slides.
 
 ## Notes
-•	If you retrain the model, place the new .pth file inside saved_models/ and restart the app.
-•	On Mac M1/M2, install PyTorch with:
+•	If you retrain the model, place the new .pth file inside saved_models/ and restart the app.<br>
+•	On Mac M1/M2, install PyTorch with:<br>
 
-pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
+	pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
