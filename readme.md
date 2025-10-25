@@ -64,9 +64,9 @@ You can directly launch the Streamlit app to test predictions:
 
 streamlit run app/app.py
 
-•	The app will auto-select the latest .pth checkpoint from saved_models/.
-•	The sidebar provides quick examples to test the model.
-•	You can also enter your own sentences and view predicted sentiment with class probabilities.
+•	The app will auto-select the latest .pth checkpoint from saved_models/. <br>
+•	The sidebar provides quick examples to test the model.<br>
+•	You can also enter your own sentences and view predicted sentiment with class probabilities.<br>
 
 
 ## What Has Been Done
